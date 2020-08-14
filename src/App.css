@@ -1,0 +1,61 @@
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.table,
+th,
+td {
+  border: none;
+}
+
+.currencyTable {
+  width: 50%;
+  background-color: #fff;
+  font-size: 24px;
+  overflow: hidden;
+  color: #29aae3;
+}
+
+.currencyRates {
+  width: 10%;
+}
+
+.currencyTable td {
+  padding: 15px;
+  text-align: left;
+}
+
+.currencyRates {
+  color: #fff;
+}
+
+.default-rates {
+  color: #000;
+}
+
+.increased-rates {
+  background-color: green;
+  border-radius: 15%;
+}
+
+.decreased-rates {
+  background-color: red;
+  border-radius: 15%;
+}
+
+.flag {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.flag + .flag {
+  margin: 0 10px 0 -15px;
+}
