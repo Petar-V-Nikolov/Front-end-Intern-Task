@@ -98,7 +98,7 @@ class App extends Component {
     let children = [];
     let reatesClass;
 
-    for (var key in ratesArr) {
+    for (let key in ratesArr) {
       if (this.state.increasingRates[key] === true) {
         reatesClass = "increased-rates";
       } else if (this.state.increasingRates[key] === false) {
